@@ -23,7 +23,6 @@ Hello! CI/CD Pipeline is working.
 The GitHub Actions workflow automatically runs when code is pushed to the `main` branch.
 
 Pipeline steps:
-
 1. Checkout the source code
 2. Setup Node.js
 3. Install dependencies
@@ -44,3 +43,19 @@ Install dependencies:
 
 ```bash
 npm install
+
+Run the application:
+npm start
+
+The application will be available at:
+http://localhost:3000
+Docker
+Build the Docker image:
+docker build -t nodejs-demo-app .
+
+Run the container:
+docker run -p 3000:3000 nodejs-demo-app
+
+GitHub Actions
+The workflow file is located at:
+.github/workflows/main.yml
