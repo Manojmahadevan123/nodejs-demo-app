@@ -1,61 +1,142 @@
-# Node.js CI/CD Pipeline
+# \# Node.js CI/CD Pipeline
 
-## Project Overview
+# 
 
-This project demonstrates a CI/CD pipeline for a Node.js web application using GitHub Actions and Docker.
+# \## Project Overview
 
-## Technologies Used
+# 
 
-- Node.js
-- GitHub
-- GitHub Actions
-- Docker
-- Docker Hub
+# This project demonstrates a CI/CD pipeline for a Node.js web application using GitHub Actions and Docker.
 
-## Application
+# 
 
-The Node.js application runs on port 3000 and displays:
+# \## Technologies Used
 
-Hello! CI/CD Pipeline is working.
+# 
 
-## CI/CD Pipeline
+# \- Node.js
 
-The GitHub Actions workflow automatically runs when code is pushed to the `main` branch.
+# \- GitHub
 
-Pipeline steps:
-1. Checkout the source code
-2. Setup Node.js
-3. Install dependencies
-4. Run tests
-5. Login to Docker Hub
-6. Build the Docker image
-7. Push the Docker image to Docker Hub
+# \- GitHub Actions
 
-## Docker Image
+# \- Docker
 
-Docker Hub repository:
+# \- Docker Hub
 
-manojmahadevan/nodejs-demo-app
+# 
 
-## How to Run Locally
+# \## Application
 
-Install dependencies:
+# 
 
-```bash
-npm install
+# The Node.js application runs on port 3000 and displays:
 
-Run the application:
-npm start
+# 
 
-The application will be available at:
-http://localhost:3000
-Docker
-Build the Docker image:
-docker build -t nodejs-demo-app .
+# Hello! CI/CD Pipeline is working.
 
-Run the container:
-docker run -p 3000:3000 nodejs-demo-app
+# 
 
-GitHub Actions
-The workflow file is located at:
-.github/workflows/main.yml
+# \## CI/CD Pipeline
+
+# 
+
+# The GitHub Actions workflow automatically runs when code is pushed to the `main` branch.
+
+# 
+
+# Pipeline steps:
+
+# 
+
+# 1\. Checkout the source code
+
+# 2\. Setup Node.js
+
+# 3\. Install dependencies
+
+# 4\. Run tests
+
+# 5\. Login to Docker Hub
+
+# 6\. Build the Docker image
+
+# 7\. Push the Docker image to Docker Hub
+
+# 
+
+# \## Docker Image
+
+# 
+
+# Docker Hub repository:
+
+# 
+
+# manojmahadevan/nodejs-demo-app
+
+# 
+
+# \## How to Run Locally
+
+# 
+
+# Install dependencies:
+
+# 
+
+# npm install
+
+# 
+
+# Run the application:
+
+# 
+
+# npm start
+
+# 
+
+# The application will be available at:
+
+# 
+
+# http://localhost:3000
+
+# 
+
+# \## Docker
+
+# 
+
+# Build the Docker image:
+
+# 
+
+# docker build -t nodejs-demo-app .
+
+# 
+
+# Run the container:
+
+# 
+
+# docker run -p 3000:3000 nodejs-demo-app
+
+# 
+
+# \## GitHub Actions
+
+# 
+
+# The workflow file is located at:
+
+# 
+
+# .github/workflows/main.yml
+
+# 
+
+# The workflow is triggered whenever code is pushed to the `main` branch.
+
